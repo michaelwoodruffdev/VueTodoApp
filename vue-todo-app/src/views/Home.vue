@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>This page is just to test the vue router</h1>
+    <router-link to="/todo">
+      <button>go to todolist application</button>
+    </router-link>
   </div>
 </template>
 
